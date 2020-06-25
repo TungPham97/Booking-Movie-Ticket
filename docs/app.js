@@ -143,7 +143,7 @@ for (let i = 0; i < movieList.length; i++) {
       title = (e.target.parentElement.parentElement.children[0].children[0].innerText);
       localStorage.setItem('time', JSON.stringify(time));
       localStorage.setItem('title', JSON.stringify(title));
-      window.location.href = 'http://127.0.0.1:5501/test.html';
+      window.location.href = 'https://tungpham97.github.io/Booking-Movie-Ticket/test.html';
 
       console.log(time, title);
     } else if (e.target.parentElement.className == 'thumb') {
